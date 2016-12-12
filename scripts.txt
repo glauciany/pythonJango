@@ -1,2 +1,5 @@
 Exercicio2.py
 Exercicio3.py
+Exercicio4.py
+Exercicio1.py
+
