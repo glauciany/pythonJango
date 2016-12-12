@@ -1,0 +1,176 @@
+professor@professor-B85M-D3PH:~$ sudo apt-get update
+[sudo] password for professor: 
+Obter:1 http://security.ubuntu.com trusty-security InRelease [65,9 kB]
+Ign http://us.archive.ubuntu.com trusty InRelease                 
+Obter:2 http://us.archive.ubuntu.com trusty-updates InRelease [65,9 kB]
+Obter:3 http://security.ubuntu.com trusty-security/main Sources [123 kB]
+Atingido http://us.archive.ubuntu.com trusty Release.gpg      
+Obter:4 http://us.archive.ubuntu.com trusty-updates/main Sources [387 kB]      
+Obter:5 http://security.ubuntu.com trusty-security/restricted Sources [4.613 B]
+Obter:6 http://security.ubuntu.com trusty-security/main amd64 Packages [565 kB]
+Obter:7 http://us.archive.ubuntu.com trusty-updates/restricted Sources [5.888 B]
+Obter:8 http://us.archive.ubuntu.com trusty-updates/main amd64 Packages [930 kB]
+Obter:9 http://us.archive.ubuntu.com trusty-updates/restricted amd64 Packages [16,4 kB]
+Obter:10 http://security.ubuntu.com trusty-security/restricted amd64 Packages [13,3 kB]
+Obter:11 http://us.archive.ubuntu.com trusty-updates/main i386 Packages [889 kB]
+Obter:12 http://security.ubuntu.com trusty-security/main i386 Packages [524 kB]
+Obter:13 http://us.archive.ubuntu.com trusty-updates/restricted i386 Packages [16,2 kB]
+Obter:14 http://security.ubuntu.com trusty-security/restricted i386 Packages [13,1 kB]
+Obter:15 http://us.archive.ubuntu.com trusty-updates/main Translation-en [452 kB]
+Obter:16 http://security.ubuntu.com trusty-security/main Translation-en [311 kB]
+Obter:17 http://us.archive.ubuntu.com trusty-updates/restricted Translation-en [3.842 B]
+Atingido http://us.archive.ubuntu.com trusty Release                           
+Obter:18 http://security.ubuntu.com trusty-security/restricted Translation-en [3.349 B]
+Atingido http://us.archive.ubuntu.com trusty/main Sources                 
+Atingido http://us.archive.ubuntu.com trusty/restricted Sources
+Atingido http://us.archive.ubuntu.com trusty/main amd64 Packages
+Atingido http://us.archive.ubuntu.com trusty/restricted amd64 Packages
+Atingido http://us.archive.ubuntu.com trusty/main i386 Packages
+Atingido http://us.archive.ubuntu.com trusty/restricted i386 Packages
+Atingido http://us.archive.ubuntu.com trusty/main Translation-pt_BR
+Atingido http://us.archive.ubuntu.com trusty/main Translation-pt
+Atingido http://us.archive.ubuntu.com trusty/main Translation-en
+Atingido http://us.archive.ubuntu.com trusty/restricted Translation-pt_BR
+Atingido http://us.archive.ubuntu.com trusty/restricted Translation-pt         
+Atingido http://us.archive.ubuntu.com trusty/restricted Translation-en         
+Baixados 4.391 kB em 6s (677 kB/s)                                             
+Lendo listas de pacotes... Pronto
+professor@professor-B85M-D3PH:~$ git--version
+git--version: comando não encontrado
+professor@professor-B85M-D3PH:~$ git -- version
+O programa 'git' não está instalado no momento. Você pode instalá-lo digitando:
+sudo apt-get install git
+professor@professor-B85M-D3PH:~$ ^C
+professor@professor-B85M-D3PH:~$ sudo apt-get install git
+Lendo listas de pacotes... Pronto
+Construindo árvore de dependências       
+Lendo informação de estado... Pronto
+Os pacotes extra a seguir serão instalados:
+  git-man liberror-perl
+Pacotes sugeridos:
+  git-daemon-run git-daemon-sysvinit git-doc git-el git-email git-gui gitk
+  gitweb git-arch git-bzr git-cvs git-mediawiki git-svn
+Os NOVOS pacotes a seguir serão instalados:
+  git git-man liberror-perl
+0 pacotes atualizados, 3 pacotes novos instalados, 0 a serem removidos e 105 não atualizados.
+É preciso baixar 3.306 kB de arquivos.
+Depois desta operação, 21,9 MB adicionais de espaço em disco serão usados.
+Você quer continuar? [S/n] s
+Obter:1 http://us.archive.ubuntu.com/ubuntu/ trusty/main liberror-perl all 0.17-1.1 [21,1 kB]
+Obter:2 http://security.ubuntu.com/ubuntu/ trusty-security/main git-man all 1:1.9.1-1ubuntu0.3 [699 kB]
+Obter:3 http://security.ubuntu.com/ubuntu/ trusty-security/main git amd64 1:1.9.1-1ubuntu0.3 [2.586 kB]
+Baixados 3.306 kB em 2s (1.231 kB/s)
+A seleccionar pacote anteriormente não seleccionado liberror-perl.
+(Lendo banco de dados ... 174718 ficheiros e directórios actualmente instalados.)
+A preparar para desempacotar .../liberror-perl_0.17-1.1_all.deb ...
+A descompactar liberror-perl (0.17-1.1) ...
+A seleccionar pacote anteriormente não seleccionado git-man.
+A preparar para desempacotar .../git-man_1%3a1.9.1-1ubuntu0.3_all.deb ...
+A descompactar git-man (1:1.9.1-1ubuntu0.3) ...
+A seleccionar pacote anteriormente não seleccionado git.
+A preparar para desempacotar .../git_1%3a1.9.1-1ubuntu0.3_amd64.deb ...
+A descompactar git (1:1.9.1-1ubuntu0.3) ...
+A processar 'triggers' para man-db (2.7.0.2-2) ...
+Configurando liberror-perl (0.17-1.1) ...
+Configurando git-man (1:1.9.1-1ubuntu0.3) ...
+Configurando git (1:1.9.1-1ubuntu0.3) ...
+professor@professor-B85M-D3PH:~$ git config --global user.name "Glauciany Guimarães"
+professor@professor-B85M-D3PH:~$ git config --global user.email glaucianysousa@hotmail.com
+professor@professor-B85M-D3PH:~$ pwd
+/home/professor
+professor@professor-B85M-D3PH:~$ mkdir pythonJango
+professor@professor-B85M-D3PH:~$ cd pythonJango
+professor@professor-B85M-D3PH:~/pythonJango$ touch scripts.txt
+professor@professor-B85M-D3PH:~/pythonJango$ nano scripts.txt
+professor@professor-B85M-D3PH:~/pythonJango$ ls - la
+ls: não é possível acessar -: Arquivo ou diretório não encontrado
+ls: não é possível acessar la: Arquivo ou diretório não encontrado
+professor@professor-B85M-D3PH:~/pythonJango$ ls -la
+total 12
+drwxrwxr-x  2 professor professor 4096 Dez 12 19:12 .
+drwxr-xr-x 18 professor professor 4096 Dez 12 19:11 ..
+-rw-rw-r--  1 professor professor   28 Dez 12 19:15 scripts.txt
+professor@professor-B85M-D3PH:~/pythonJango$ git int
+git: 'int' não é um comando git. Veja 'git --help'.
+
+Você quis dizer isso?
+	init
+professor@professor-B85M-D3PH:~/pythonJango$ git init
+Initialized empty Git repository in /home/professor/pythonJango/.git/
+professor@professor-B85M-D3PH:~/pythonJango$ ls -la
+total 16
+drwxrwxr-x  3 professor professor 4096 Dez 12 19:16 .
+drwxr-xr-x 18 professor professor 4096 Dez 12 19:11 ..
+drwxrwxr-x  7 professor professor 4096 Dez 12 19:16 .git
+-rw-rw-r--  1 professor professor   28 Dez 12 19:15 scripts.txt
+professor@professor-B85M-D3PH:~/pythonJango$ git status
+No ramo master
+
+Submissão inicial.
+
+Arquivos não monitorados:
+  (utilize "git add <arquivo>..." para incluir o que será submetido)
+
+	scripts.txt
+
+nada adicionado ao envio mas arquivos não registrados estão presentes (use "git add" to registrar)
+professor@professor-B85M-D3PH:~/pythonJango$ git add scripts.txt
+professor@professor-B85M-D3PH:~/pythonJango$ git status
+No ramo master
+
+Submissão inicial.
+
+Mudanças a serem submetidas:
+  (utilize "git rm --cached <arquivo>..." para não apresentar)
+
+	new file:   scripts.txt
+
+professor@professor-B85M-D3PH:~/pythonJango$ git commit -m "Scripts iniciais do projeto"
+[master (root-commit) 50cf20c] Scripts iniciais do projeto
+ 1 file changed, 2 insertions(+)
+ create mode 100644 scripts.txt
+professor@professor-B85M-D3PH:~/pythonJango$ git status
+No ramo master
+nada a submeter, diretório de trabalho vazio
+professor@professor-B85M-D3PH:~/pythonJango$ ls
+scripts.txt
+professor@professor-B85M-D3PH:~/pythonJango$ nano scripts.txt
+professor@professor-B85M-D3PH:~/pythonJango$ git status
+No ramo master
+Changes not staged for commit:
+  (utilize "git add <arquivo>..." para atualizar o que será submetido)
+  (utilize "git checkout -- <arquivo>..." para descartar mudanças no diretório de trabalho)
+
+	modificado: scripts.txt
+
+nenhuma modificação adicionada à submissão (utilize "git add" e/ou "git commit -a")
+professor@professor-B85M-D3PH:~/pythonJango$ git add scripts.txt
+professor@professor-B85M-D3PH:~/pythonJango$ git commit -m "Adicionado mais 2 linhas ao arquivo"
+[master 5e456e7] Adicionado mais 2 linhas ao arquivo
+ 1 file changed, 3 insertions(+)
+professor@professor-B85M-D3PH:~/pythonJango$ git status
+No ramo master
+nada a submeter, diretório de trabalho vazio
+professor@professor-B85M-D3PH:~/pythonJango$ git log
+commit 5e456e72a9cbf9756af435aad796a7178d409682
+Author: Glauciany Guimarães <glaucianysousa@hotmail.com>
+Date:   Mon Dec 12 19:32:12 2016 -0200
+
+    Adicionado mais 2 linhas ao arquivo
+
+commit 50cf20c1e8c794c73ce6f2756c5801025a41bfa8
+Author: Glauciany Guimarães <glaucianysousa@hotmail.com>
+Date:   Mon Dec 12 19:25:31 2016 -0200
+
+    Scripts iniciais do projeto
+professor@professor-B85M-D3PH:~/pythonJango$ git remote add origin https://github.com/glauciany/pythonJango.git
+professor@professor-B85M-D3PH:~/pythonJango$ git clone https://github.com/glauciany/pythonJango.git
+Cloning into 'pythonJango'...
+remote: Counting objects: 5, done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), done.
+Checking connectivity... done.
+professor@professor-B85M-D3PH:~/pythonJango$ 
+
+
